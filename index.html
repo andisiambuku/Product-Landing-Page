@@ -1,50 +1,104 @@
 <!DOCTYPE html>
-<head>
 <html lang="en">
-    <meta charset="UTF-8">
-<!-- To make the website responsive to different screens-->>
-<meta name="viewport" content="device-width,initial-scale =1.0">
+<head>
+
+<meta charset="UTF-8"/>
+<!-- To make the website responsive to different screens-->
+<meta name="viewport" content="device-width, initial-scale =1.0">
 <title> Responsive Product Landing Page </title>
 <!-- CSS STYLESHEET -->
-<link rel= stylesheet  href="css/styles.css">
-
+<link rel= "stylesheet"  href="./css/style.css"/>
+<!--REMIXICON CDN-->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+<!---ANIMATE ON SCROLL CSS CDN --->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-<!---ANIMATE ON SCROLL CSS CDN --->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<!--- HEADER--->
+<header class="container header">
 
 <!-- Navigation bar-->
-<header>
 <nav class="nav">
-<div class="logo">
-<h2>Bookish.</h2>
-</div>
+    <div class="logo">
+         <h2>Bookish</h2>
+    </div>
 
 <div class="nav menu" id="nav_menu">
-<button class="close_btn" id="close_btn">
-<i class="ri-close-fill"></i>
-</button>
-<ul class="nav_menu_list">
-    <li class="nav_menu_item">
-        <a href="#" class="nav_menu_link">About</a>
-    </li>
-    <li class="nav_menu_item">
-        <a href="#" class="nav_menu_link">Reviews</a>
-    </li>
-    <li class="nav_menu_item">
-        <a href="#" class="nav_menu_link">Contact</a>
-    </li>
-    <li class="nav_menu_item">
-        <a href="#" class="nav_menu_link">Register</a>
-    </li>
-    </ul>
+    <button class="close_btn" id="close_btn">
+    <i class="ri-close-fill"></i>
+    </button>
+
+        <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+                <a href="#" class="nav_menu_link">About</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="#" class="nav_menu_link">Reviews</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="#" class="nav_menu_link">Contact</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="#" class="nav_menu_link">Register</a>
+            </li>
+        </ul>
 </div>
-<button>
-    <i class="ri-menu-line"></i>
-</button>
+
+    <button class="toggle_btn" id="toggle_btn">
+        <i class="ri-menu-line"></i>
+    </button>
 </nav>
 </header>
+
+<section class="wrapper">
+    <div class="container">
+        <div class="grid-cols-2">
+            <div class="grid-item-1">
+                <h1= class="main-heading">
+                Welcome to <span> Bookish </span>
+                <br />
+                We are all book'd up.
+                </h1>
+                <p class="info-text">
+                  All your favourite books and 
+                  more in store,with a large range of genres and authors.  
+                </p>
+                <div class="btn_wrapper">
+                    <button class="btn shop_btn"> Bookshop</button>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <div class="book_img_wrapper">
+                    <img src="./img/book_img.svg" alt="book_img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="wrapper">
+        <div class="container" data-aos="fade-up">
+
+        </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,3 +109,4 @@
    
 </body>
 </html>
+<!-- https://github.com/andisiambuku/Product-Landing-Page -->
