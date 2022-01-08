@@ -5,20 +5,53 @@
 <!-- To make the website responsive to different screens-->>
 <meta name="viewport" content="device-width,initial-scale =1.0">
 <title> Responsive Product Landing Page </title>
+<!-- CSS STYLESHEET -->
 <link rel= stylesheet  href="css/styles.css">
+
 </head>
 
 <body>
+<!---ANIMATE ON SCROLL CSS CDN --->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 <!-- Navigation bar-->
 <header>
+<nav class="nav">
+<div class="logo">
+<h2>Bookish.</h2>
+</div>
 
-
-
-
-    
+<div class="nav menu" id="nav_menu">
+<button class="close_btn" id="close_btn">
+<i class="ri-close-fill"></i>
+</button>
+<ul class="nav_menu_list">
+    <li class="nav_menu_item">
+        <a href="#" class="nav_menu_link">About</a>
+    </li>
+    <li class="nav_menu_item">
+        <a href="#" class="nav_menu_link">Reviews</a>
+    </li>
+    <li class="nav_menu_item">
+        <a href="#" class="nav_menu_link">Contact</a>
+    </li>
+    <li class="nav_menu_item">
+        <a href="#" class="nav_menu_link">Register</a>
+    </li>
+    </ul>
+</div>
+<button>
+    <i class="ri-menu-line"></i>
+</button>
+</nav>
 </header>
 
 
 
-     
+  <!--- GSAP CDN --->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<!--- SCRIPT.JS --->
+<script src="./script.js" defer></script>
+   
 </body>
+</html>
